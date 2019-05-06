@@ -4,7 +4,8 @@
 
 ## proguard-rules.pro
 
-```
+```java
+################BRVAH#################
 -keep class com.chad.library.adapter.** {
 *;
 }
