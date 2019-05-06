@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="white">#ffffffff</color>
+    <color name="weike_main_color">#30C27B</color><!--主色-->
+    <color name="weike_second_color">#FFBB22</color><!--辅助橙-->
+    <color name="weike_third_color">#F44336</color><!--辅助红-->
     <color name="weike_text_main">#333333</color><!--字体主色-->
     <color name="weike_text_second">#666666</color><!--字体第二辅助色-->
     <color name="weike_text_third">#999999</color><!--字体第三辅助色-->
