@@ -2,6 +2,16 @@
 
 
 
+## Download
+
+Get the latest artifact via gradle
+
+```groxy
+implementation 'me.jason.library:custom-dialog:1.0.1'
+```
+
+
+
 ## proguard-rules.pro
 
 ```java
