@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion rootProject.ext.android["compileSdkVersion"]
@@ -24,4 +25,14 @@ dependencies {
     compileOnly rootProject.ext.dependencies["appcompat-v7"]
     compileOnly rootProject.ext.dependencies["recyclerview-v7"]
     implementation rootProject.ext.dependencies["BRVAH"]
+}
+
+publish {
+    repoName = 'maven'// If not, the default is 'maven'
+    userOrg = 'jasonlian'
+    groupId = 'me.jason.library'
+    artifactId = 'custom-dialog'
+    publishVersion = '1.0.0'
+    desc = 'hello jason'
+    website = 'https://github.com/tomUp/CustomDialog'
 }
