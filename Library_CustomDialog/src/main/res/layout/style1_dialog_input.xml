@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:textColor="@color/weike_main_warning"
+        android:textColor="@color/style1_warning_main"
         android:textSize="12sp"
         android:visibility="gone" />
 
@@ -47,7 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/dialog_divider_height"
         android:layout_marginTop="20dp"
-        android:background="@color/weike_main_divider" />
+        android:background="@color/style1_divider_main" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -66,7 +66,7 @@
             android:id="@+id/dialogBtnDivide"
             android:layout_width="@dimen/dialog_divider_height"
             android:layout_height="match_parent"
-            android:background="@color/weike_main_divider" />
+            android:background="@color/style1_divider_main" />
 
         <Button
             android:id="@+id/dialogPositive"

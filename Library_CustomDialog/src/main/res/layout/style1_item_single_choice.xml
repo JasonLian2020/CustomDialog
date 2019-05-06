@@ -21,6 +21,6 @@
         android:layout_gravity="center_vertical"
         android:layout_marginStart="10dp"
         android:text="标题"
-        android:textColor="@color/weike_text_second"
+        android:textColor="@color/style1_text_second"
         android:textSize="14sp" />
 </LinearLayout>

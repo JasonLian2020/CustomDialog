@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="white">#ffffffff</color>
-    <color name="weike_main_color">#30C27B</color><!--主色-->
-    <color name="weike_second_color">#FFBB22</color><!--辅助橙-->
-    <color name="weike_third_color">#F44336</color><!--辅助红-->
-    <color name="weike_text_main">#333333</color><!--字体主色-->
-    <color name="weike_text_second">#666666</color><!--字体第二辅助色-->
-    <color name="weike_text_third">#999999</color><!--字体第三辅助色-->
-    <color name="weike_main_divider">#F0F0F0</color><!--分割线-->
-    <color name="weike_text_weak">#7f999999</color><!--字体弱化、输入框提示的颜色-->
-    <color name="weike_main_warning">#F44336</color><!--警告-->
-
-    <color name="weike_dialog_positive_btn_text">#30C27B</color><!--积极，确定-->
-    <color name="weike_dialog_negative_btn_text">@color/weike_text_second</color><!--消极，取消-->
+    //style1
+    <color name="style1_text_main">#333333</color><!--字体主色-->
+    <color name="style1_text_second">#666666</color><!--字体第二辅助色-->
+    <color name="style1_text_third">#999999</color><!--字体第三辅助色-->
+    <color name="style1_text_weak">#7f999999</color><!--字体弱化、输入框提示的颜色-->
+    <color name="style1_divider_main">#F0F0F0</color><!--分割线-->
+    <color name="style1_warning_main">#F44336</color><!--警告-->
+    <color name="style1_dialog_positive_btn_text">#30C27B</color><!--积极，确定-->
+    <color name="style1_dialog_negative_btn_text">@color/style1_text_second</color><!--消极，取消-->
 </resources>
