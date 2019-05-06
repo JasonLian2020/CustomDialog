@@ -82,7 +82,7 @@ public class CustomDialog extends Dialog {
     List<Integer> selectedIndiceList;
 
     public CustomDialog(@NonNull Builder builder) {
-        super(builder.context, R.style.CustomDialogStyle);
+        super(builder.context, R.style.CustomDialogStyle1);
         this.builder = builder;
 
         // Don't keep a Context reference in the Builder after this point
@@ -368,11 +368,11 @@ public class CustomDialog extends Dialog {
     }
 
     private void initMessageLayout() {
-        setContentView(R.layout.weike_dialog_message);
+        setContentView(R.layout.style1_dialog_message);
     }
 
     private void initInputLayout() {
-        setContentView(R.layout.weike_dialog_input);
+        setContentView(R.layout.style1_dialog_input);
         // 输入框
         EditText dialogInput = findViewById(R.id.dialogInput);
         EditText dialogSecondInput = findViewById(R.id.dialogSecondInput);
@@ -419,19 +419,19 @@ public class CustomDialog extends Dialog {
     }
 
     private void initImageLayout() {
-        setContentView(R.layout.weike_dialog_image);
+        setContentView(R.layout.style1_dialog_image);
         ImageView dialogIcon = findViewById(R.id.dialogIcon);
         if (builder.iconResId != -1) {
             dialogIcon.setImageResource(builder.iconResId);
         } else {
-            dialogIcon.setImageResource(R.drawable.dialog_base_weike_image_icon);
+            dialogIcon.setImageResource(R.drawable.public_dialog_default_image_icon);
         }
     }
 
     private void initSingleChoiceLayout() {
-        setContentView(R.layout.weike_dialog_choice);
+        setContentView(R.layout.style1_dialog_choice);
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
-        final BaseQuickAdapter<String, BaseViewHolder> itemAdapter = new BaseQuickAdapter<String, BaseViewHolder>(R.layout.weike_item_single_choice, Arrays.asList(builder.items)) {
+        final BaseQuickAdapter<String, BaseViewHolder> itemAdapter = new BaseQuickAdapter<String, BaseViewHolder>(R.layout.style1_item_single_choice, Arrays.asList(builder.items)) {
             @Override
             protected void convert(BaseViewHolder helper, String item) {
                 // 标题
@@ -475,9 +475,9 @@ public class CustomDialog extends Dialog {
     }
 
     private void initMultiChoiceLayout() {
-        setContentView(R.layout.weike_dialog_choice);
+        setContentView(R.layout.style1_dialog_choice);
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
-        final BaseQuickAdapter<String, BaseViewHolder> itemAdapter = new BaseQuickAdapter<String, BaseViewHolder>(R.layout.weike_item_single_choice, Arrays.asList(builder.items)) {
+        final BaseQuickAdapter<String, BaseViewHolder> itemAdapter = new BaseQuickAdapter<String, BaseViewHolder>(R.layout.style1_item_single_choice, Arrays.asList(builder.items)) {
             @Override
             protected void convert(BaseViewHolder helper, String item) {
                 // 标题
@@ -547,7 +547,7 @@ public class CustomDialog extends Dialog {
     }
 
     private void initListLayout() {
-        setContentView(R.layout.weike_dialog_list);
+        setContentView(R.layout.style1_dialog_list);
         MaxHeightRecyclerView recyclerView = findViewById(R.id.recyclerView);
         if (builder.listMaxHeight > 0)
             recyclerView.setMaxHeight(ScreenUtil.dp2px(getContext(), builder.listMaxHeight));
@@ -556,7 +556,7 @@ public class CustomDialog extends Dialog {
     }
 
     private void initCustomLayout() {
-        setContentView(R.layout.weike_dialog_custom);
+        setContentView(R.layout.style1_dialog_custom);
         FrameLayout dialogCustom = findViewById(R.id.dialogCustom);
         if (builder.customLayoutId != -1) {
             View customView = LayoutInflater.from(getContext()).inflate(builder.customLayoutId, dialogCustom, false);

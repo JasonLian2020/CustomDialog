@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="CustomDialogStyle" parent="Theme.AppCompat.Light.Dialog">
-        <item name="android:windowBackground">@drawable/base_dialog_background</item>
+    <style name="CustomDialogStyle1" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@drawable/style1_dialog_background</item>
         <item name="android:windowFrame">@null</item>
         <item name="android:windowNoTitle">true</item>
         <item name="windowNoTitle">true</item>
@@ -11,7 +11,7 @@
         <item name="android:backgroundDimEnabled">true</item>
     </style>
 
-    <style name="CustomDialogStyle.Title">
+    <style name="CustomDialogStyle1.Title">
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:layout_marginTop">30dp</item>
         <item name="android:layout_marginStart">15dp</item>
@@ -22,7 +22,7 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="CustomDialogStyle.Content">
+    <style name="CustomDialogStyle1.Content">
         <item name="android:layout_gravity">center_horizontal</item>
         <item name="android:layout_marginTop">10dp</item>
         <item name="android:layout_marginStart">15dp</item>
@@ -33,7 +33,7 @@
         <item name="android:textSize">14sp</item>
     </style>
 
-    <style name="CustomDialogStyle.Negative">
+    <style name="CustomDialogStyle1.Negative">
         <item name="android:background">@null</item>
         <item name="android:foreground">?attr/selectableItemBackground</item>
         <item name="android:gravity">center</item>
@@ -41,7 +41,7 @@
         <item name="android:textSize">18sp</item>
     </style>
 
-    <style name="CustomDialogStyle.Positive">
+    <style name="CustomDialogStyle1.Positive">
         <item name="android:background">@null</item>
         <item name="android:foreground">?attr/selectableItemBackground</item>
         <item name="android:gravity">center</item>
@@ -49,10 +49,10 @@
         <item name="android:textSize">18sp</item>
     </style>
 
-    <style name="CustomDialogStyle.Input">
+    <style name="CustomDialogStyle1.Input">
         <item name="android:layout_marginStart">15dp</item>
         <item name="android:layout_marginEnd">15dp</item>
-        <item name="android:background">@drawable/weike_dialog_edittext_selector</item>
+        <item name="android:background">@drawable/style1_dialog_edittext_selector</item>
         <item name="android:gravity">start</item>
         <item name="android:padding">10dp</item>
         <item name="android:textColor">@color/weike_text_second</item>

@@ -6,14 +6,14 @@
 
     <TextView
         android:id="@+id/dialogTitle"
-        style="@style/CustomDialogStyle.Title"
+        style="@style/CustomDialogStyle1.Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="标题" />
 
     <TextView
         android:id="@+id/dialogContent"
-        style="@style/CustomDialogStyle.Content"
+        style="@style/CustomDialogStyle1.Content"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="内容" />
@@ -37,7 +37,7 @@
 
         <Button
             android:id="@+id/dialogNegative"
-            style="@style/CustomDialogStyle.Negative"
+            style="@style/CustomDialogStyle1.Negative"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -51,7 +51,7 @@
 
         <Button
             android:id="@+id/dialogPositive"
-            style="@style/CustomDialogStyle.Positive"
+            style="@style/CustomDialogStyle1.Positive"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
