@@ -1,4 +1,4 @@
-package me.jason.library.utils;
+package me.jason.customdialog.utils;
 
 import android.content.Context;
 import android.util.TypedValue;

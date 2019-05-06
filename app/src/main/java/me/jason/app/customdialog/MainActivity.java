@@ -7,7 +7,7 @@ import android.widget.Toast;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import me.jason.library.CustomDialog;
+import me.jason.customdialog.CustomDialog;
 
 public class MainActivity extends AppCompatActivity {
 

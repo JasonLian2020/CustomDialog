@@ -1,11 +1,11 @@
-package me.jason.library.view;
+package me.jason.customdialog.view;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
 
-import me.jason.library.R;
+import me.jason.customdialog.R;
 
 
 public class MaxHeightRecyclerView extends RecyclerView {

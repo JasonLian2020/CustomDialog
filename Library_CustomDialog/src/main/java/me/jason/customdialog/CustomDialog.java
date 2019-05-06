@@ -1,4 +1,4 @@
-package me.jason.library;
+package me.jason.customdialog;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -27,9 +27,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import me.jason.library.utils.DialogUtil;
-import me.jason.library.utils.ScreenUtil;
-import me.jason.library.view.MaxHeightRecyclerView;
+import me.jason.customdialog.utils.DialogUtil;
+import me.jason.customdialog.utils.ScreenUtil;
+import me.jason.customdialog.view.MaxHeightRecyclerView;
 
 /**
  * Project Name:LiZhiWeiKe
