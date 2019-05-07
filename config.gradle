@@ -25,6 +25,7 @@ ext {
             "constraint-layout"   : "com.android.support.constraint:constraint-layout:${version["constraintLayoutSdkVersion"]}",
             //view
             "BRVAH"               : "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.41",
+            "custom-dialog"       : "me.jason.library:custom-dialog:1.0.2",
             //test
             "butterknife"         : "com.jakewharton:butterknife:${version["butterknifeSdkVersion"]}",
             "butterknife-compiler": "com.jakewharton:butterknife-compiler:${version["butterknifeSdkVersion"]}",
