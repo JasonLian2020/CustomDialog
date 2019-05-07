@@ -7,7 +7,7 @@
 Get the latest artifact via gradle
 
 ```groxy
-implementation 'me.jason.library:custom-dialog:1.0.1'
+implementation 'me.jason.library:custom-dialog:1.0.2'
 ```
 
 
