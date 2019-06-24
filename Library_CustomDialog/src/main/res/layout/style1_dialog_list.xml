@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:text="内容" />
 
-    <com.widget.listview.MaxHeightRecyclerView
+    <me.jason.customdialog.view.MaxHeightRecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
