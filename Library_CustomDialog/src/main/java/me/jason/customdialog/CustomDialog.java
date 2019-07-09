@@ -269,6 +269,8 @@ public class CustomDialog extends Dialog {
         // 通用控件
         TextView dialogTitle = findViewById(R.id.dialogTitle);
         TextView dialogContent = findViewById(R.id.dialogContent);
+        View dialogBottomDivider = findViewById(R.id.dialogBottomDivider);
+        View dialogBtnLayout = findViewById(R.id.dialogBtnLayout);
         Button dialogNegative = findViewById(R.id.dialogNegative);
         Button dialogPositive = findViewById(R.id.dialogPositive);
         View dialogBtnDivide = findViewById(R.id.dialogBtnDivide);
@@ -303,6 +305,11 @@ public class CustomDialog extends Dialog {
 
         if (builder.contentEllipsize != null) {
             dialogContent.setEllipsize(builder.contentEllipsize);
+        }
+
+        if (builder.positiveText == null && builder.negativeText == null) {
+            dialogBottomDivider.setVisibility(View.GONE);
+            dialogBtnLayout.setVisibility(View.GONE);
         }
 
         if (builder.positiveText != null) {

@@ -26,12 +26,14 @@
         android:text="内容" />
 
     <View
+        android:id="@+id/dialogBottomDivider"
         android:layout_width="match_parent"
         android:layout_height="@dimen/dialog_divider_height"
         android:layout_marginTop="20dp"
         android:background="@color/style1_divider_main" />
 
     <LinearLayout
+        android:id="@+id/dialogBtnLayout"
         android:layout_width="match_parent"
         android:layout_height="@dimen/dialog_button_height"
         android:orientation="horizontal">
