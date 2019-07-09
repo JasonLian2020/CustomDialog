@@ -3,15 +3,15 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:paddingEnd="20dp"
-    android:paddingStart="20dp">
+    android:paddingStart="30dp"
+    android:paddingEnd="30dp">
 
     <ImageView
         android:id="@+id/singleChoice"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:layout_marginBottom="10dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:src="@drawable/style1_icon_check_selector" />
 
     <TextView
@@ -22,5 +22,5 @@
         android:layout_marginStart="10dp"
         android:text="标题"
         android:textColor="@color/style1_text_second"
-        android:textSize="14sp" />
+        android:textSize="30sp" />
 </LinearLayout>

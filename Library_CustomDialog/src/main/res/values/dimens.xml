@@ -2,4 +2,6 @@
 <resources>
     <!--dialog-->
     <dimen name="dialog_divider_height">1px</dimen>
+    <dimen name="dialog_button_height">88dp</dimen>
+    <dimen name="dialog_base_width">540dp</dimen>
 </resources>

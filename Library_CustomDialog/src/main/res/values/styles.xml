@@ -13,24 +13,24 @@
 
     <style name="CustomDialogStyle1.Title">
         <item name="android:layout_gravity">center_horizontal</item>
-        <item name="android:layout_marginTop">30dp</item>
-        <item name="android:layout_marginStart">15dp</item>
-        <item name="android:layout_marginEnd">15dp</item>
+        <item name="android:layout_marginTop">40dp</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:layout_marginEnd">30dp</item>
         <item name="android:gravity">center</item>
         <item name="android:textColor">@color/style1_text_main</item>
-        <item name="android:textSize">18sp</item>
+        <item name="android:textSize">32sp</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="CustomDialogStyle1.Content">
         <item name="android:layout_gravity">center_horizontal</item>
-        <item name="android:layout_marginTop">10dp</item>
-        <item name="android:layout_marginStart">15dp</item>
-        <item name="android:layout_marginEnd">15dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:layout_marginEnd">30dp</item>
         <item name="android:gravity">center</item>
         <item name="android:lineSpacingExtra">4dp</item>
         <item name="android:textColor">@color/style1_text_second</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">30sp</item>
     </style>
 
     <style name="CustomDialogStyle1.Negative">
@@ -38,7 +38,7 @@
         <item name="android:foreground">?attr/selectableItemBackground</item>
         <item name="android:gravity">center</item>
         <item name="android:textColor">@color/style1_dialog_negative_btn_text</item>
-        <item name="android:textSize">18sp</item>
+        <item name="android:textSize">32sp</item>
     </style>
 
     <style name="CustomDialogStyle1.Positive">
@@ -46,17 +46,17 @@
         <item name="android:foreground">?attr/selectableItemBackground</item>
         <item name="android:gravity">center</item>
         <item name="android:textColor">@color/style1_dialog_positive_btn_text</item>
-        <item name="android:textSize">18sp</item>
+        <item name="android:textSize">32sp</item>
     </style>
 
     <style name="CustomDialogStyle1.Input">
-        <item name="android:layout_marginStart">15dp</item>
-        <item name="android:layout_marginEnd">15dp</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:layout_marginEnd">30dp</item>
         <item name="android:background">@drawable/style1_dialog_edittext_selector</item>
         <item name="android:gravity">start</item>
         <item name="android:padding">10dp</item>
         <item name="android:textColor">@color/style1_text_second</item>
         <item name="android:textColorHint">@color/style1_text_weak</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">30sp</item>
     </style>
 </resources>
