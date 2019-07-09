@@ -30,6 +30,8 @@ dependencies {
     implementation rootProject.ext.dependencies["appcompat-v7"]
     implementation rootProject.ext.dependencies["recyclerview-v7"]
     implementation rootProject.ext.dependencies["constraint-layout"]
+    //autosize
+    implementation 'me.jessyan:autosize:1.1.2'
     //view
     implementation rootProject.ext.dependencies["butterknife"]
     annotationProcessor(rootProject.ext.dependencies["butterknife-compiler"]) {
