@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--dialog-->
+    <!--  Base  -->
+    <dimen name="dialog_base_width">271dp</dimen>
+    <dimen name="dialog_base_marginLeft">15dp</dimen>
+    <dimen name="dialog_base_marginRight">15dp</dimen>
+    <!--  Title  -->
+    <dimen name="dialog_title_marginTop">30dp</dimen>
+    <dimen name="dialog_title_textSize">18sp</dimen>
+    <!--  Content  -->
+    <dimen name="dialog_content_marginTop">10dp</dimen>
+    <dimen name="dialog_content_textSize">14sp</dimen>
+    <dimen name="dialog_content_lineSpacingExtra">4dp</dimen>
+    <!--  Divider  -->
     <dimen name="dialog_divider_height">1px</dimen>
-    <dimen name="dialog_button_height">88dp</dimen>
-    <dimen name="dialog_base_width">540dp</dimen>
+    <dimen name="dialog_divider_marginTop">20dp</dimen>
+    <!--  Button  -->
+    <dimen name="dialog_button_height">48dp</dimen>
+    <dimen name="dialog_button_textSize">18sp</dimen>
+    <!--  Input  -->
+    <dimen name="dialog_input_padding">10dp</dimen>
+    <dimen name="dialog_input_textSize">14sp</dimen>
 </resources>
