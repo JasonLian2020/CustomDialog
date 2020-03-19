@@ -3,13 +3,14 @@ package me.jason.customdialog;
 import android.app.Dialog;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.ColorRes;
-import android.support.annotation.DrawableRes;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.annotation.StringRes;
-import android.support.annotation.UiThread;
-import android.support.v7.widget.RecyclerView;
+
+import androidx.annotation.ColorRes;
+import androidx.annotation.DrawableRes;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.StringRes;
+import androidx.annotation.UiThread;
+import androidx.recyclerview.widget.RecyclerView;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -1025,7 +1026,7 @@ public class CustomDialog extends Dialog {
 
         /**
          * 设置列表
-         * <P>Sets a custom {@link android.support.v7.widget.RecyclerView.Adapter} for the dialog's list</P>
+         * <P>Sets a custom {@link RecyclerView.Adapter} for the dialog's list</P>
          * <P>dialogType为{@link CustomDialog#DIALOG_TYPE_LIST}才生效</P>
          */
         public Builder adapter(RecyclerView.Adapter<?> adapter, @Nullable RecyclerView.LayoutManager layoutManager) {
