@@ -20,4 +20,27 @@
     <!--  Input  -->
     <dimen name="dialog_input_padding">10dp</dimen>
     <dimen name="dialog_input_textSize">14sp</dimen>
+    <dimen name="dialog_input_marginTop">20dp</dimen>
+    <dimen name="dialog_secondInput_height">70dp</dimen>
+    <dimen name="dialog_secondInput_marginTop">15dp</dimen>
+    <!--  Image  -->
+    <dimen name="dialog_image_width">92dp</dimen>
+    <dimen name="dialog_image_height">92dp</dimen>
+    <dimen name="dialog_image_marginTop">30dp</dimen>
+    <!--  Warning  -->
+    <dimen name="dialog_warning_marginTop">10dp</dimen>
+    <dimen name="dialog_warning_textSize">12sp</dimen>
+    <!--  List  -->
+    <dimen name="dialog_list_marginTop">10dp</dimen>
+    <!--  Custom  -->
+    <dimen name="dialog_custom_marginTop">10dp</dimen>
+    <!--  Item  -->
+    <dimen name="dialog_item_paddingLeft">20dp</dimen>
+    <dimen name="dialog_item_paddingRight">20dp</dimen>
+    <dimen name="dialog_item_singleChoice_width">20dp</dimen>
+    <dimen name="dialog_item_singleChoice_height">20dp</dimen>
+    <dimen name="dialog_item_singleChoice_marginTop">10dp</dimen>
+    <dimen name="dialog_item_singleChoice_marginBottom">10dp</dimen>
+    <dimen name="dialog_item_singleName_marginLeft">10dp</dimen>
+    <dimen name="dialog_item_singleName_textSize">14sp</dimen>
 </resources>

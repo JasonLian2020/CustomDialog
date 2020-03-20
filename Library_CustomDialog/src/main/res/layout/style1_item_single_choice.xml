@@ -3,15 +3,15 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:paddingStart="30dp"
-    android:paddingEnd="30dp">
+    android:paddingStart="@dimen/dialog_item_paddingLeft"
+    android:paddingEnd="@dimen/dialog_item_paddingRight">
 
     <ImageView
         android:id="@+id/singleChoice"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
+        android:layout_width="@dimen/dialog_item_singleChoice_width"
+        android:layout_height="@dimen/dialog_item_singleChoice_height"
+        android:layout_marginTop="@dimen/dialog_item_singleChoice_marginTop"
+        android:layout_marginBottom="@dimen/dialog_item_singleChoice_marginBottom"
         android:src="@drawable/style1_icon_check_selector" />
 
     <TextView
@@ -19,8 +19,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="@dimen/dialog_item_singleName_marginLeft"
         android:text="标题"
         android:textColor="@color/style1_text_second"
-        android:textSize="30sp" />
+        android:textSize="@dimen/dialog_item_singleName_textSize" />
 </LinearLayout>

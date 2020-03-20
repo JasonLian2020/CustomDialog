@@ -23,14 +23,14 @@
         style="@style/CustomDialogStyle1.Input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="@dimen/dialog_input_marginTop" />
 
     <EditText
         android:id="@+id/dialogSecondInput"
         style="@style/CustomDialogStyle1.Input"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:layout_marginTop="15dp"
+        android:layout_height="@dimen/dialog_secondInput_height"
+        android:layout_marginTop="@dimen/dialog_secondInput_marginTop"
         android:visibility="gone" />
 
     <TextView
@@ -38,9 +38,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="@dimen/dialog_warning_marginTop"
         android:textColor="@color/style1_warning_main"
-        android:textSize="12sp"
+        android:textSize="@dimen/dialog_warning_textSize"
         android:visibility="gone" />
 
     <View
