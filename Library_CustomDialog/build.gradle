@@ -35,7 +35,7 @@ publish {
     userOrg = 'jasonlian'
     groupId = 'me.jason.library'
     artifactId = 'custom-dialog'
-    publishVersion = '1.1.0'
+    publishVersion = '1.1.1'
     desc = 'hello jason'
     website = 'https://github.com/JasonLian2020/CustomDialog'
 }
