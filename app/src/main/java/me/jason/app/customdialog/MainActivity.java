@@ -1,10 +1,10 @@
 package me.jason.app.customdialog;
 
 import android.os.Bundle;
-
-import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
@@ -19,10 +19,10 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R2.id.btnInput, R2.id.btnImage, R2.id.btnMessage, R2.id.btnSingleChoice, R2.id.btnMultiChoice})
+    @OnClick({R.id.btnInput, R.id.btnImage, R.id.btnMessage, R.id.btnSingleChoice, R.id.btnMultiChoice})
     public void onViewClicked(View view) {
         switch (view.getId()) {
-            case R2.id.btnInput:
+            case R.id.btnInput:
                 new CustomDialog.Builder(this)
                         .title("这是一个标题")
                         .content("请输入你的手机")
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                         .dialogType(CustomDialog.DIALOG_TYPE_INPUT)
                         .show();
                 break;
-            case R2.id.btnImage:
+            case R.id.btnImage:
                 new CustomDialog.Builder(this)
                         .title("这是一个标题")
                         .content("图片")
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                         .dialogType(CustomDialog.DIALOG_TYPE_IMAGE)
                         .show();
                 break;
-            case R2.id.btnMessage:
+            case R.id.btnMessage:
                 new CustomDialog.Builder(this)
                         .title("这是一个标题")
                         .content("内容内容内容")
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                         .dialogType(CustomDialog.DIALOG_TYPE_MESSAGE)
                         .show();
                 break;
-            case R2.id.btnSingleChoice:
+            case R.id.btnSingleChoice:
                 String[] denyReasons = new String[]{"该类型课程不支持退款", "课程已开始不支持退款", "其他"};
                 new CustomDialog.Builder(this)
                         .title("拒绝退款")
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                         .dialogType(CustomDialog.DIALOG_TYPE_SINGLE_CHOICE)
                         .show();
                 break;
-            case R2.id.btnMultiChoice:
+            case R.id.btnMultiChoice:
                 String[] items = new String[]{"1", "2", "3", "4", "5"};
                 new CustomDialog.Builder(this)
                         .title("多选框")
