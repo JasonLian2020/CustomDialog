@@ -12,33 +12,38 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="输入弹窗" />
+        android:text="输入弹窗"
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/btnImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="图片弹窗" />
+        android:text="图片弹窗"
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/btnMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="普通消息弹窗" />
+        android:text="普通消息弹窗"
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/btnSingleChoice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="单选列表弹窗" />
+        android:text="单选列表弹窗"
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/btnMultiChoice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="多选列表弹窗" />
+        android:text="多选列表弹窗"
+        android:textSize="30sp" />
 </LinearLayout>
