@@ -37,5 +37,5 @@ publish {
     artifactId = 'custom-dialog'
     publishVersion = '1.1.0'
     desc = 'hello jason'
-    website = 'https://github.com/tomUp/CustomDialog'
+    website = 'https://github.com/JasonLian2020/CustomDialog'
 }
